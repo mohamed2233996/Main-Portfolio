@@ -1,0 +1,12 @@
+.titel-proggars{
+    text-align: center;
+    padding: 7px;
+    margin: 20px 0 10px 0;
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+.proggrars-container{
+    width: 50%;
+    margin: auto;
+}

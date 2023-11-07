@@ -1,0 +1,83 @@
+.settings-box {
+    transition: 0.3s;
+    padding: 20px;
+    border-top: none;
+}
+
+.color-op {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.color-op li {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid #eee;
+    background-color: black;
+}
+
+.color-op li.active {
+    border-color: black;
+}
+
+.color-op li:first-child {
+    background-color: #FF9800;
+}
+
+.color-op li:nth-child(2) {
+    background-color: #e9420fcb;
+}
+
+.color-op li:nth-child(3) {
+    background-color: #4c00ff;
+}
+
+.color-op li:nth-child(4) {
+    background-color: #09ff00;
+}
+
+.color-op li:nth-child(5) {
+    background-color: #0aefff;
+}
+
+/* //// */
+
+.settings-box span.active {
+    opacity: 1;
+}
+
+.yes,
+.no {
+    width: 50px;
+    font-size: 12px;
+    background-color: var(--main-color);
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 3px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.reset-btn {
+    font-size: 19px;
+    background: #f71111;
+    border: 0;
+    width: 178px;
+    margin: 10px auto;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}

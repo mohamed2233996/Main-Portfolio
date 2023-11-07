@@ -1,0 +1,33 @@
+.progress-container{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    background-color: var(--main-color);
+}
+
+.progress-container .name{
+    position: absolute;
+    font-size: 25px;
+    color: var(--main-color);
+    top: -40px;
+    left: 4px;
+    font-weight: 600;
+}
+
+.progress-container .value{
+    position: absolute;
+    font-size: 28px;
+    color: var(--main-color);
+    top: -40px;
+    right: 4px;
+    font-weight: 600;
+}
+
+.progress-container::after{
+    content: "";
+    position: absolute;
+    top: 0;
+
+}

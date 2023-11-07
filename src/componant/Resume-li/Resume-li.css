@@ -1,0 +1,41 @@
+.main-Resume-li{
+    position: relative;
+    clear: both;
+}
+
+.resume-info{
+    font-size: 22px;
+    color: var(--p-color);
+}
+
+.resume-text{
+    width: 42%;
+    margin-bottom: 0;
+    position: relative;
+    border-radius: 4px;
+    text-align: end;
+}
+
+.Resume-icon{
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-27%);
+    margin-left: -21px;
+    background-color:var(--main-color);
+    z-index: 100;
+    display: flex;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Resume-icon svg{
+    font-size: 30px;
+}

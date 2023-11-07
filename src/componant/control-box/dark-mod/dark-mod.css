@@ -1,0 +1,19 @@
+
+.react-switch-bg :first-child {
+    background-image: url(../../../assets/imgs/dark.png);
+    background-size: contain;
+}
+
+
+.react-switch-bg :first-child svg {
+    display: none;
+}
+
+.react-switch-bg :last-child {
+    background-image: url(../../../assets/imgs/light.png);
+    background-size: contain;
+}
+
+.react-switch-bg :last-child svg {
+    display: none;
+}

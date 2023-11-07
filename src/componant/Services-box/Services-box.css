@@ -1,0 +1,30 @@
+.ServicesBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 25px;
+}
+
+.service-icon{
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: var(--main-color);
+    background: white;
+    border-radius: 50%;
+}
+
+.ServicesBox-text{
+    text-align: center;
+    color: white;
+    padding-top: 20px
+}
+
+.ServicesBox-text p{
+    color:rgba(255, 255, 255, 0.7) ;
+    font-size: 20px;
+}

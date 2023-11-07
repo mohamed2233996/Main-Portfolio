@@ -1,0 +1,46 @@
+.Conectus{
+    background-image: url(/src/assets/imgs/Contact_Img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+form input ,form textarea {
+    margin-bottom: 20px;
+    background: white;
+    padding: 14px;
+    border-radius: 12px;
+    height: 65px;
+    font-size: 22px;
+    border: 0;
+}
+
+form .send-btn{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 12px;
+    height: 65px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+form img{
+    width: 360px;
+}
+
+@media (max-width: 992px){
+    form{
+        justify-content: center;
+    }
+
+    form .send-btn{
+        margin-top: 10px;
+    }
+
+    .img-div{
+        order: -1;
+    }
+}
