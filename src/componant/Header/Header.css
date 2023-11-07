@@ -425,3 +425,9 @@
 .site-mobile-menu .site-nav-wrap[data-class="social"]>li:first-child a {
     padding-left: 15px !important;
 }
+
+@media (max-width: 1199px) {
+    .site-navbar .site-navigation .site-menu {
+        display:none;
+    }
+}

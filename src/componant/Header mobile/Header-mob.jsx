@@ -47,7 +47,7 @@ const HeaderMob = () => {
 					</div>
 				</div>
 				<div className="site-mobile-menu-body">
-					<ul className="site-menu js-clone-nav site-nav-wrap mr-auto d-none d-lg-block">
+					<ul className="site-menu js-clone-nav site-nav-wrap mr-auto  d-lg-block">
 						<li className="active"><a href="index.html"><span>Home</span></a></li>
 						<li><a href="#"><span>About</span></a></li>
 						<li><a href="#"><span>Resume </span></a></li>
