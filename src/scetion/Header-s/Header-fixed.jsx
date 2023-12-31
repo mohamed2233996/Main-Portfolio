@@ -20,7 +20,6 @@ const HeaderFixed = () => {
 		const winScroll = document.body.scrollTop ||
 			document.documentElement.scrollTop;
 		// setHeight(winScroll);
-		console.log(winScroll)
 
 		if (winScroll > heightTogetFrom) {
 			setIsVisible(true);

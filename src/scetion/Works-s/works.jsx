@@ -12,6 +12,8 @@ import projectImg8 from "../../assets/imgs/projct8.png"
 import projectImg9 from "../../assets/imgs/projct9.png"
 import projectImg10 from "../../assets/imgs/projct10.png"
 import projectImg11 from "../../assets/imgs/projct11.png"
+import projectImg12 from "../../assets/imgs/projct12.png"
+import projectImg13 from "../../assets/imgs/projct13.png"
 
 const Works = () => {
     const style1 = {
@@ -46,6 +48,12 @@ const Works = () => {
     }
     const style11 = {
         backgroundImage: `url(${projectImg11})`
+    }
+    const style12 = {
+        backgroundImage: `url(${projectImg12})`
+    }
+    const style13 = {
+        backgroundImage: `url(${projectImg13})`
     }
 
 
@@ -141,6 +149,22 @@ const Works = () => {
                             link="https://mohamed2233996.github.io/Medo-Template/"
                             style={style11}
                             title="Agensy"
+                            desc="Full Site"
+                        />
+                    </div>
+                    <div data-aos="fade-up" className="col-lg-4 mt-3 text-center">
+                        <WoksBox
+                            link="https://mohamed2233996.github.io/qoran-12/"
+                            style={style12}
+                            title="موقع قراءن كريم"
+                            desc="Full Site"
+                        />
+                    </div>
+                    <div data-aos="fade-up" className="col-lg-4 mt-3 text-center">
+                        <WoksBox
+                            link="https://mohamed2233996.github.io/medo-movies/"
+                            style={style13}
+                            title="Movies site"
                             desc="Full Site"
                         />
                     </div>
